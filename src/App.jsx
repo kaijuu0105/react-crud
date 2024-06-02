@@ -1,9 +1,10 @@
 import './App.css';
 // パスがずれてないか確認、大文字小文字など
-import Top from './components/top';
-import Create from './components/create';
-import Read from './components/read';
-import Update from './components/update';
+import Top from './Views/Top';
+import Create from './Views/Create';
+import Read from './Views/Read';
+import Update from './Views/Update';
+import Register from './Views/Register'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
           <Route path="/read" element={<Read />} />
           <Route path="/create" element={<Create />} />
           <Route path="/update" element={<Update />} />
+          <Route path="/register" element={<Register />} />
         </Routes>
       </Router>
     </main>

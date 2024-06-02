@@ -45,11 +45,35 @@
   color: whitesmoke;
   flex-direction: column;
 }
-.h1{
-  margin-top: 80px;
+main{
+  width: 80%;
+}
+
+.register{
+  width: 50%;
+  margin: 0 auto;
+}
+
+.form{
+  width: 35%;
+  margin: 0 auto;
+}
+
+.page-Title{
+  text-align: center;
+  margin-top: 10% !important;
 }
 .create-form label{
   color: whitesmoke !important;
   font-family: 'Montserrat', sans-serif;
   font-size: 12px !important;
+}
+
+
+/* float */
+.float-l{
+  float: left;
+}
+.float-r{
+  float: right;
 }
